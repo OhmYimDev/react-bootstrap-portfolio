@@ -11,7 +11,7 @@ const Navbar = () => {
             <a className="navbar-brand text-light" href="#">
                 <img className="logo" src={logo} alt='logo' />
             </a>
-            <button className="navbar-toggler btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBarsStaggered} style={{ color: "white" }} />
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
